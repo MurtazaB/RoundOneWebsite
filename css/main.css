@@ -26,6 +26,8 @@ h4, h5, h6, p, td, a{
 
 .nav {
 	padding: 0 50px 0 20px;
+
+	background-color: #2F3440;
 }
 
 
@@ -99,7 +101,7 @@ h4, h5, h6, p, td, a{
 #judges {
 	padding-bottom: 50px;
 
-	background-color: #2F3440;
+	background-color: #3F5666;
 	color: white;
 }
 
@@ -132,14 +134,20 @@ h4, h5, h6, p, td, a{
 /*APPLICATION SECTION*/
 #apply {
 	padding-bottom: 50px;
+	color:white;
+
+	background-color: #3F5666;
 }
 
 .application-btn {
 	text-align: center;
 }
 
-#apply button {
-	font-size: 1.5em;
+.apply-button {
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+	font-size: 1.7em;
 	padding: 20px;
 }
 
