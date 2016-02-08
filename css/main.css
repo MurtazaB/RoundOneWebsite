@@ -4,7 +4,7 @@ html, body {
 	height: 100%;
 }
 
-@font-face { font-family: Bebas Neue; src: url('../fonts/BebasNeue.otf'); } 
+@font-face { font-family: Bebas Neue; src: url('../fonts/BebasNeue.otf'); }
 
 h1, h2, h3, button {
 	font-family: 'Oswald', sans-serif;
@@ -41,7 +41,7 @@ h4, h5, h6, p, td, a{
 	min-width:100%;
 	max-height: 200%;
 
-	background: url(../images/bg1.jpg) no-repeat center center fixed; 
+	background: url(../images/revisedBG1.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -113,7 +113,7 @@ h4, h5, h6, p, td, a{
 /*LOGISTICS SECTION*/
 
 #logistics {
-	background: url(../images/bg2.jpg) no-repeat center center fixed; 
+	background: url(../images/bg2.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
