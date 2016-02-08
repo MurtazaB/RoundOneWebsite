@@ -2,6 +2,12 @@
 
 html, body {
 	height: 100%;
+
+	background: url(../images/bg3.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 @font-face { font-family: Bebas Neue; src: url('../fonts/BebasNeue.otf'); }
@@ -24,10 +30,11 @@ h4, h5, h6, p, td, a{
 
 /*NAVIGATION BAR*/
 
-.nav {
-	padding: 0 50px 0 20px;
+.navbar {
+	padding: 0 20px 0 20px;
 
 	background-color: #2F3440;
+	border: 0;
 }
 
 
@@ -43,11 +50,9 @@ h4, h5, h6, p, td, a{
 	min-width:100%;
 	max-height: 200%;
 
-	background: url(../images/revisedBG1.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	background-color: rgba(0,0,0, 0.5)
+
+
 }
 
 #home h1 {
@@ -78,11 +83,6 @@ h4, h5, h6, p, td, a{
 	margin-right: 12px;
 	display: inline-block;
 	text-decoration: none;
-	/*font-family: 'Open Sans', sans-serif;*/
-	/*min-width: 120px;*/
-
-	/*width: 50px;*/
-	/*height: 50px;*/
 	text-align: center;
 	vertical-align: middle;
 	padding: 6px 10px;
@@ -124,7 +124,16 @@ h4, h5, h6, p, td, a{
 	-o-background-size: cover;
 	background-size: cover;
 
+	/*padding-bottom: 50px;*/
+}
+
+.logistics-container {
+	background-color: rgba(0, 0, 0, 0.5);
 	padding-bottom: 50px;
+}
+
+#logistics h2 {
+	color: white;
 }
 
 .boxed {
