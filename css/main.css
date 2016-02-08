@@ -10,7 +10,7 @@ h1, h2, h3, button {
 	font-family: 'Oswald', sans-serif;
 }
 
-h4, h5, h6, p, td {
+h4, h5, h6, p, td, a{
 	font-family: 'Archivo Narrow', sans-serif;
 	font-size: 1.4em;
 }
@@ -23,6 +23,11 @@ h4, h5, h6, p, td {
 }
 
 /*NAVIGATION BAR*/
+
+.nav {
+	padding: 0 50px 0 20px;
+}
+
 
 /*HOME SECTION*/
 
@@ -66,8 +71,6 @@ h4, h5, h6, p, td {
 	color: white;
 	background: transparent;
 	border: 1px solid white;
-	font-size: 17px;
-	padding: 7px 12px;
 	font-weight: bold;
 	margin: 6px 0;
 	margin-right: 12px;
@@ -76,11 +79,12 @@ h4, h5, h6, p, td {
 	/*font-family: 'Open Sans', sans-serif;*/
 	/*min-width: 120px;*/
 
-	width: 50px;
-	height: 50px;
-	/*text-align: center;*/
-	padding: 6px 0;
-	font-size: 12px;
+	/*width: 50px;*/
+	/*height: 50px;*/
+	text-align: center;
+	vertical-align: middle;
+	padding: 6px 10px;
+	font-size: 1.5em;
 	line-height: 1.428571429;
 	border-radius: 30px;
 }
