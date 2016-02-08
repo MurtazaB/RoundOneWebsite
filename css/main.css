@@ -58,7 +58,7 @@ h4, h5, h6, p, td, a{
 }
 
 .main-content {
-	padding-top: 7%;
+	padding-top: 5%;
 }
 
 .home-section-btn {
@@ -98,6 +98,9 @@ h4, h5, h6, p, td, a{
 /*JUDGES SECTION*/
 #judges {
 	padding-bottom: 50px;
+
+	background-color: #2F3440;
+	color: white;
 }
 
 #judges img {
