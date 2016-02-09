@@ -160,5 +160,36 @@ h4, h5, h6, p, td, a{
 	padding: 20px;
 }
 
+.zui-table {
+	margin: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.zui-table tbody td {
+    border: solid 1px #DDEEEE;
+    padding: 10px;
+}
+.zui-table-rounded {
+    border: none;
+}
+
+.zui-table-rounded tbody tr:first-child td:first-child {
+    border-radius: 10px 0 0 0;
+}
+.zui-table-rounded tbody tr:first-child td:last-child {
+    border-radius: 0 10px 0 0;
+}
+.zui-table-rounded tbody td {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5)
+
+}
+.zui-table-rounded tbody tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+}
+.zui-table-rounded tbody tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+}
 
 /*CONTACT US*/
