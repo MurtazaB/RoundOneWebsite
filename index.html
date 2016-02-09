@@ -3,9 +3,7 @@
 
 
   <head>
-    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="//cdn.jsdelivr.net/jquery.scrollto/2.1.0/jquery.scrollTo.min.js"></script>
+
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,78 +30,6 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-      <script>
-
-      (function ($) {
-        $(document).ready(function(){
-
-          $('.nav-button').click(function(e){
-          var link = e.target;
-          if (link.target === '_blank') {
-            return;
-          }
-          e.preventDefault();
-          link.blur();
-          // if (link.title) {
-          //  $(this).parent().find('span.message').text(link.title);
-          // }
-        });
-
-          $('#home-button').click(function() {
-
-          $(window).scrollTo('#home', 800);
-        });
-          $('#judges-button').click(function() {
-          $(window).scrollTo('#judges', 800);
-        });
-        $('#logistics-button').click(function() {
-          $(window).scrollTo('#logistics', 800);
-        });
-        $('#apply-button').click(function() {
-          $(window).scrollTo('#apply', 800);
-        });
-
-          // hide .navbar first
-          // $(".navbar").hide();
-          $(".navbar").css("background-color", "rgba(0,0,0,0)")
-          $(".nav-button").css("color", "white")
-
-          // fade in .navbar
-          $(function () {
-              $(window).scroll(function () {
-
-                       // set distance user needs to scroll before we start fadeIn
-                  if ($(this).scrollTop() > 50) {
-                      // $('.navbar').fadeIn();
-                      $(".navbar").css("background-color", "rgb(64, 64, 64)")
-                      // $(".nav-button").css("color", "rgb(150, 150, 150)")
-                  } else {
-                      // $('.navbar').fadeOut();
-                      $(".navbar").css("background-color", "rgba(0,0,0,0)")
-                      $(".nav-button").css("color", "white")
-                  }
-              });
-          });
-
-          $(".nav-button").hover(function(){
-              $(this).css("color", "rgb(150, 150, 150)");
-              }, function(){
-              $(this).css("color", "white");
-          });
-
-          // $('#home-button').scrollTo(target[,duration][,settings]);
-
-          // $(element).scrollTo(target[,duration][,settings]);
-          // $(element).scrollTo(target[,duration][,settings]);
-          // $(element).scrollTo(target[,duration][,settings]);
-
-      });
-        }(jQuery));
-      // $('#myAffix').affix({
-      //   offset: 15
-      // })
-
-    </script>
   </head>
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -139,9 +65,9 @@
         <h1>ROUND ONE</h1>
         <h3>based off ABC's Shark Tank</h3>
         <br>
-        <h4>Participant Applications Now Open | Due February 24, 2016</h4>
+        <h4>Participant Applications Now Open | Due March 3, 2016</h4>
         <div class="home-section-btn">
-          <a class="btn btn-default ghost-button" href="#judges" role="button">Learn More</span></a>
+          <a id = "learnmore-button" class="btn btn-default ghost-button" href="#judges" role="button">Learn More</span></a>
         </div>
 
       </div>
