@@ -140,26 +140,6 @@ h4, h5, h6, p, td, a{
 	background-color: rgba(255, 255, 255, 0.5)
 }
 
-/*APPLICATION SECTION*/
-#apply {
-	padding-bottom: 50px;
-	color:white;
-
-	background-color: #3F5666;
-}
-
-.application-btn {
-	text-align: center;
-}
-
-.apply-button {
-	margin-top: 5px;
-	margin-bottom: 5px;
-
-	font-size: 1.7em;
-	padding: 20px;
-}
-
 .zui-table {
 	margin: auto;
     border-collapse: collapse;
@@ -190,6 +170,30 @@ h4, h5, h6, p, td, a{
 }
 .zui-table-rounded tbody tr:last-child td:last-child {
     border-radius: 0 0 10px 0;
+}
+
+/*APPLICATION SECTION*/
+#apply {
+	padding-bottom: 50px;
+	color:white;
+
+	background-color: #3F5666;
+}
+
+.application-btn {
+	text-align: center;
+}
+
+.apply-button {
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+	font-size: 1.7em;
+	padding: 20px;
+}
+
+#apply p, a {
+	text-align: center;
 }
 
 /*CONTACT US*/
