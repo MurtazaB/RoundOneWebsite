@@ -151,8 +151,11 @@ h4, h5, h6, p, td, a{
     padding: 10px;
 }
 .zui-table-rounded {
+	width: 100%;
     border: none;
+    margin-bottom:12px;
 }
+
 
 .zui-table-rounded tbody tr:first-child td:first-child {
     border-radius: 10px 0 0 0;
@@ -165,11 +168,19 @@ h4, h5, h6, p, td, a{
     background-color: rgba(255, 255, 255, 0.5)
 
 }
+
+.zui-table-rounded tbody tr:first-child {
+	border-bottom: thin solid;
+}
 .zui-table-rounded tbody tr:last-child td:first-child {
     border-radius: 0 0 0 10px;
 }
 .zui-table-rounded tbody tr:last-child td:last-child {
     border-radius: 0 0 10px 0;
+}
+
+.zui-table-rounded tbody tr td:first-child {
+	width: 31%;
 }
 
 /*APPLICATION SECTION*/
