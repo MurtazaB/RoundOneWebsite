@@ -172,11 +172,9 @@ h4, h5, h6, p, td, a{
 .zui-table-rounded tbody tr:first-child {
 	border-bottom: thin solid;
 }
+
 .zui-table-rounded tbody tr:last-child td:first-child {
-    border-radius: 0 0 0 10px;
-}
-.zui-table-rounded tbody tr:last-child td:last-child {
-    border-radius: 0 0 10px 0;
+    border-radius: 0 0 10px 10px;
 }
 
 .zui-table-rounded tbody tr td:first-child {
