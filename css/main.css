@@ -217,9 +217,8 @@ h4, h5, h6, p, td, a{
 
 #homesponsorimage {
 	position: absolute;
-	bottom: 2%;
 	width: 30%;
-	left: 1%;
+	right: 5px;
 }
 
 /*CONTACT US*/
